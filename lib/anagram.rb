@@ -8,7 +8,10 @@ class Anagram
 
   def match(array)
     matchedArray = []
-    array.collect{|w| w == @word || w.split.sort.join == @word}
+    array.collect do |w|
+      w == @word || w.split.sort.join == @word
+      binding.pry
+    end
     matchedArray = array
   end
 end
