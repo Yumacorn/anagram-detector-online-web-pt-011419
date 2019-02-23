@@ -1,11 +1,13 @@
 # Your code goes here!
 class Anagram
 
-  def initialize
+  def initialize(word)
 
   end
 
+  def match(array)
 
+  end
 
 
 end
