@@ -12,7 +12,7 @@ class Anagram
     array.each do |w|
       if w == @word || w.split("").reverse.join == @word
         matchedArray << w
-      binding.pry
+      end
     end
     matchedArray = array
   end
