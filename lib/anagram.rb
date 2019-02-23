@@ -11,6 +11,4 @@ class Anagram
     array.collect{|w| w == @word}
     matchedArray
   end
-
-
 end
