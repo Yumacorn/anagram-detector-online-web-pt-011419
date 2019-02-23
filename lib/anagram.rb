@@ -14,6 +14,6 @@ class Anagram
         matchedArray << w
       end
     end
-    matchedArray = array
+    matchedArray
   end
 end
