@@ -9,8 +9,8 @@ class Anagram
 
   def match(array)
     matchedArray = []
-    array.collect do |w|
-      w == @word || w.split("").sort.join == @word
+    array.each do |w|
+      if w == @word || w.split("").reverse.join == @word
       binding.pry
     end
     matchedArray = array
