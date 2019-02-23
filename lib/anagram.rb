@@ -11,6 +11,7 @@ class Anagram
     matchedArray = []
     array.each do |w|
       if w == @word || w.split("").reverse.join == @word
+        matchedArray << w
       binding.pry
     end
     matchedArray = array
