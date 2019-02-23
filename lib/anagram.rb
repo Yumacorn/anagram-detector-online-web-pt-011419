@@ -9,7 +9,7 @@ class Anagram
   def match(array)
     matchedArray = []
     array.collect{|w| w == @word}
-    array
+    matchedArray
   end
 
 
