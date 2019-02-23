@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(array)
+    matchedArray = []
     array.collect{|w| w == @word}
     array
   end
